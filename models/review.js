@@ -1,10 +1,9 @@
 const mongoose = require('mongoose');
-const { campgroundSchema } = require('../schemas');
-const schema = mongoose.Schema;
+const Schema = mongoose.Schema;
 
-const revieSchema = new Schema({
+const reviewSchema = new Schema({
       body: String,
       rating: Number
 });
 
-module.exports = mongoose.model('Campground', campgroundSchema);
+module.exports = mongoose.model('Review', reviewSchema);
