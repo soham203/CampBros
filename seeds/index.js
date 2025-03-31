@@ -26,7 +26,7 @@ const seeDB = async () => {
             author: '67d8b9015c8c048ca0749bd9',
             location: `${cities[random1000].city}, ${cities[random1000].state}`,
             title: `${sample(descriptors)} ${sample(places)}`,
-            image: `https://picsum.photos/400?random=${Math.random()}`,
+            // image: `https://picsum.photos/400?random=${Math.random()}`,
             discription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero at quasi velit fugiat eaque! Necessitatibus, sapiente? Sapiente impedit aspernatur aut officiis inventore molestias et. Porro dolorum impedit reiciendis commodi ea.",
             price
         });
